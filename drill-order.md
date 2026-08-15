@@ -1,0 +1,1 @@
+Proving the Merge it button, driven from the window.

@@ -1,0 +1,17 @@
+{
+  "name": "notes-api",
+  "version": "0.1.0",
+  "description": "A small JSON API for notes. No dependencies.",
+  "private": true,
+  "main": "src/server.js",
+  "bin": {
+    "notes-api": "bin/notes-api.js"
+  },
+  "scripts": {
+    "start": "node bin/notes-api.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

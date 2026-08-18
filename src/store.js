@@ -74,7 +74,8 @@ class Store {
   }
 
   get (id) {
-    return this.notes.find(note => note.id === id) || null
+    const want = Number(id)
+    return this.notes.find(note => note.id === want) || null
   }
 
   add ({ title, body }) {
